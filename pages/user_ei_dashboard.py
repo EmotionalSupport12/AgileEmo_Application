@@ -222,7 +222,7 @@ with _DASHBOARD_TAB3:
       time.sleep(1)
     elif _AVG_VALUE < 3.0:
       _WARNING_DETAIL += f"""- **{_CATEGORY}**: Your average score is **{_AVG_VALUE:.1f}**. Consider exploring additional training or coaching sessions. Please
-      refer to the following. {_RECOMMENDATIONS[_CATEGORY]}"""
+      refer to the following. {_RECOMMENDATIONS[_CATEGORY]}\n\n"""
 
   #Display messagees with expandable details
   if _SUCCESS_DETAIL:
